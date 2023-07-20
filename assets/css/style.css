@@ -227,16 +227,16 @@ padding-right: 30px;
     }
 
 /*--------------------------------------------------------------
-# Hero Section
+# banner Section
 --------------------------------------------------------------*/
-#hero {
+#banner {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top center;
+    background: url("../img/banner.jpg") top center;
     background-size: cover;
 }
 
-#hero:before {
+#banner:before {
     content: "";
     background: rgba(5, 13, 24, 0.3);
     position: absolute;
@@ -247,13 +247,13 @@ padding-right: 30px;
     z-index: 1;
 }
 
-#hero .hero-container {
+#banner .banner-container {
     position: relative;
     z-index: 2;
     min-width: 300px;
 }
 
-#hero h1 {
+#banner h1 {
     margin: 0 0 10px 0;
     font-size: 64px;
     font-weight: 700;
@@ -261,14 +261,14 @@ padding-right: 30px;
     color: #fff;
 }
 
-#hero p {
+#banner p {
     color: #fff;
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
+#banner p span {
     color: #149ddd;
     padding-bottom: 4px;
     letter-spacing: 1px;
@@ -276,18 +276,18 @@ padding-right: 30px;
 }
 
 @media (min-width: 1024px) {
-    #hero {
+    #banner {
     background-attachment: fixed;
     }
 }
 
 @media (max-width: 768px) {
-    #hero h1 {
+    #banner h1 {
     font-size: 28px;
     line-height: 36px;
     }
 
-    #hero h2 {
+    #banner h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
