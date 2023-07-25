@@ -637,57 +637,58 @@ section {
 /*--------------------------------------------------------------
 # Certs
 --------------------------------------------------------------*/
-    .certs .badge-box {
-        margin-bottom: 20px;
-        }
+.certs .badge-box {
+    margin-bottom: 20px;
+    }
 
-    .certs .badge {
-    float: left;
-    display: flex;
+.certs .badge {
     align-items: center;
-    justify-content: center;
-    width: 200px;
+    width: 200px;   
     height: 200px;
     background: #149ddd;
     border-radius: 50%;
     transition: 0.5s;
     border: 1px solid #149ddd;
-    }
+}
 
-    .certs .badge j {
-    color: #fff;
-    font-size: 10px;
-    line-height: 0;
-    }
+.terraform {
+    margin-top: 13%;
 
-    .certs .badge-box:hover .badge {
-    background: #fff;
-    }
+}
+.certs .badge j {
+color: #fff;
+font-size: 10px;
+line-height: 0;
+}
 
-    .certs .badge-box:hover .badge j {
-    color: #149ddd;
-    }
+.certs .badge-box:hover .badge {
+background: #fff;
+}
 
-    .certs .title {
-    margin-left: 80px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-    }
+.certs .badge-box:hover .badge j {
+color: #149ddd;
+}
 
-    .certs .title a {
-    color: #343a40;
-    }
+.certs .title {
+margin-left: 30px;
+font-weight: 700;
+margin-bottom: 15px;
+font-size: 18px;
+}
 
-    .certs .title a:hover {
-    color: #149ddd;
-    }
+.certs .title a {
+color: #343a40;
+}
 
-    .certs .description {
-    margin-left: 80px;
-    line-height: 24px;
-    font-size: 14px;
-    }
+.certs .title a:hover {
+color: #149ddd;
+}
+
+.certs .description {
+margin-left: 30px;
+line-height: 24px;
+font-size: 14px;
+}
 
 /*--------------------------------------------------------------
 # Contact
